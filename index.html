@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> IdeaFusion site</title>
+    <link rel="stylesheet" href="Styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <section class="header">
+      <h3>IdeaFusion Finds</h3>
+      <nav>
+        <ul id="navbar" class="navbar">
+          <li><a  href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a  href="blog.html">Blog</a></li>
+          <li><a  href="about.html">About</a></li>
+          <li><a  href="contact.html">Contact</a></li>
+          <div id="cart">
+            <h3>Shopping Cart</h3>
+            <ul></ul>
+            <p id="total-price">Total: ₹0</p>
+          </div>
+          <a href="#" id="close"><i class="fas fa-times"></i></a>
+        </ul>
+      </nav>
+      <div class="mobile">
+        <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+        <i id="bar" class="fas fa-outdent"></i>
+      </div>
+    </section>
+
+    <section class="hero">
+      <h4>Trade-in-offer</h4>
+      <h2>Get-Start</h2>
+      <h1>Your Shopping</h1>
+      <p>Save more with coupons & get upto 60% off!</p>
+      <button><b>Shop Now</b></button>
+    </section>
+
+    <section class="feature section-p1">
+      <div class="feature__box">
+        <img src="img/features/f1.png" alt="Shipping Image" />
+        <h6>Free Shipping</h6>
+      </div>
+      <div class="feature__box">
+        <img src="img/features/f2.png" alt="Shipping Image" />
+        <h6>Timely Delivery</h6>
+      </div>
+      <div class="feature__box">
+        <img src="img/features/f3.png" alt="Shipping Image" />
+        <h6>Save Money</h6>
+      </div>
+      <div class="feature__box">
+        <img src="img/features/f4.png" alt="Shipping Image" />
+        <h6>Promotions</h6>
+      </div>
+      <div class="feature__box">
+        <img src="img/features/f5.png" alt="Shipping Image" />
+        <h6>Rewards</h6>
+      </div>
+      <div class="feature__box">
+        <img src="img/features/f6.png" alt="Shipping Image" />
+        <h6>24/7 Support</h6>
+      </div>
+    </section>
+
+    <section class="product1 section-p1">
+      <h2>Featured Products</h2>
+      <p>New Collections New Modern Design</p>
+      <div class="product1__container">
+        <div class="pro">
+          <img src="img/clothes/pic1.webp", alt="Product Image" />
+          
+          <div class="desc">
+            <span>U.S.Polo</span>
+            <h5>Men Navy Blue Checked Pure Cotton Casual Shirt</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹1299 <h6>MRP <strike>₹2499.00</strike> (50%)</h6></h4>
+          </div>
+          <button class="add-to-cart" data-product="Product Name" data-price="1299"><i class="fas fa-shopping-cart cart"></i></button>
+        </div>
+        <div class="pro">
+          <img src="img/clothes/pic2.webp" alt="Product Image" />
+          <div class="desc">
+            <span>Rare Rabbit</span>
+            <h5>GINGHAM CHECK SHIRT
+                BYRE - DARK GREEN</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹1871 <h6>MRP <strike>₹3899.00</strike> (52%)</h4>
+          </div>
+          <button class="add-to-cart" data-product="Product Name" data-price="1871"><i class="fas fa-shopping-cart cart"></i></button>
+        </div>
+        <div class="pro">
+          <img src="img/clothes/pic3.webp" alt="Product Image" />
+          <div class="desc">
+            <span>U.S.POLO</span>
+            <h5>OVER DYED COTTON SHIRT</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹2499.00 <h6>MRP <strike>₹5000.00</strike> (50%)</h4>
+          </div>
+          <button class="add-to-cart" data-product="Product Name" data-price="2499"><i class="fas fa-shopping-cart cart"></i></button>
+        </div>
+        <div class="pro">
+          <img src="img/clothes/pic4.webp" alt="Product Image" />
+          <div class="desc">
+            <span>U.S.POLO</span>
+            <h5>Cotton Dobby Shirt</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹1564.00 <h6>MRP <strike>₹2299.00</strike> (32%)</h4>
+          </div>
+          <button class="add-to-cart" data-product="Product Name" data-price="1564"><i class="fas fa-shopping-cart cart"></i></button>
+        </div>
+        <div class="pro">
+          <img src="img/clothes/pic5.webp" alt="Product Image" />
+          <div class="desc">
+            <span>U.S.POLO</span>
+            <h5>Solid Slim Fit Shirt</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹1809.00 <h6>MRP <strike>₹2699.00</strike> (33%)</h4>
+          </div>
+          <button class="add-to-cart" data-product="Product Name" data-price="1809"><i class="fas fa-shopping-cart cart"></i></button>
+        </div>
+        <div class="pro">
+          <img src="img/clothes/pic6.webp" alt="Product Image" />
+          <div class="desc">
+            <span>Mufti</span>
+            <h5>
+                Light Green Seersucker Slim Fit Jacket</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹2499.00 <h6>MRP <strike>₹4999</strike> (50%)</h4>
+          </div>
+          <button class="add-to-cart" data-product="Product Name" data-price="2499"><i class="fas fa-shopping-cart cart"></i></button>
+        </div>
+        <div class="pro">
+          <img src="img/clothes/pic7.webp" alt="Product Image" />
+          <div class="desc">
+            <span>Rare Rabbit</span>
+            <h5>COTTON STRETCH PLAIN SHIRT
+                BENEDICT - BROWN</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹1679.00 <h6>MRP <strike>₹3499.00</strike> (52%)</h4>
+          </div>
+          <button class="add-to-cart" data-product="Product Name" data-price="1679"><i class="fas fa-shopping-cart cart"></i></button>
+        </div>
+        <div class="pro">
+          <img src="img/clothes/pic8.webp" alt="Product Image" />
+          <div class="desc">
+            <span>Rare Rabbit</span>
+            <h5>REGULAR FIT PLAIN SHIRT
+                COMO-25 - DUSKY BLUE</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹3499.00 <h6>MRP <strike>₹7999.00</strike> (52%)</h4>
+          </div>
+          <button class="add-to-cart" data-product="Product Name" data-price="1871"><i class="fas fa-shopping-cart cart"></i></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="banner section-m1">
+      <h4>Repair Services</h4>
+      <h2>Up to <span>70% Off</span> - All t-Shirts & Accessories</h2>
+      <button class="normal">Explore More</button>
+    </section>
+
+    <section class="product1 section-p1">
+      <h2>New Arrivals</h2>
+      <p>Summer Collection New Modern Design</p>
+      <div class="product1__container">
+        <div class="pro">
+          <img src="img/products/n1.jpg" alt="Product Image" />
+          <div class="desc">
+            <span>SRUHI</span>
+            <h5>MEN REGULAR FIT CHECKED SPREAD COLLAR CASUAL SHIRT</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹459/-/-</h4>
+          </div> <button class="add-to-cart" data-product="Product Name" data-price="1871"><i class="fas fa-shopping-cart cart"></i></button>
+        </div>
+        <div class="pro">
+          <img src="img/products/f4.jpg" alt="Product Image" />
+          <div class="desc">
+            <span>COMFY</span>
+            <h5>MEN SLIM FIT STRIPED PRINTED FLORAL CUT WAY COLLAR CASUAL LYCRA SHIRTS</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹550/-</h4>
+          </div>
+          <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+        </div>
+        <div class="pro">
+          <img src="img/products/f5.jpg" alt="Product Image" />
+          <div class="desc">
+            <span>COMFY</span>
+            <h5>MEN SLIM FIT STRIPED PRINTED FLORAL CUT WAY COLLAR CASUAL LYCRA SHIRTS</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹459/-</h4>
+          </div>
+          <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+        </div>
+        <div class="pro">
+          <img src="img/products/f6.jpg" alt="Product Image" />
+          <div class="desc">
+            <span>COMFY</span>
+            <h5>MEN SLIM FIT STRIPED PRINTED FLORAL CUT WAY COLLAR CASUAL LYCRA SHIRTS</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹499/-</h4>
+          </div>
+          <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+        </div>
+        <div class="pro">
+          <img src="img/products/f1.jpg" alt="Product Image" />
+          <div class="desc">
+            <span>COMBRAIDED</span>
+            <h5>MEN SLIM FIT STRIPED PRINTED FLORAL CUT WAY COLLAR CASUAL LYCRA SHIRTS</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹699</h4>
+          </div>
+          <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+        </div>
+        <div class="pro">
+          <img src="img/products/f2.jpg" alt="Product Image" />
+          <div class="desc">
+            <span>COMBRAIDED</span>
+            <h5>MEN SLIM FIT STRIPED PRINTED FLORAL CUT WAY COLLAR CASUAL LYCRA SHIRTS</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹499/-</h4>
+          </div>
+          <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+        </div>
+        <div class="pro">
+          <img src="img/products/f3.jpg" alt="Product Image" />
+          <div class="desc">
+            <span>Floura</span>
+            <h5>MEN SLIM FIT STRIPED PRINTED FLORAL CUT WAY COLLAR CASUAL LYCRA SHIRTS</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹599/-</h4>
+          </div>
+          <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+        </div>
+        <div class="pro">
+          <img src="img/products/n4.jpg" alt="Product Image" />
+          <div class="desc">
+            <span>Flaoura</span>
+            <h5>MEN SLIM FIT STRIPED PRINTED FLORAL CUT WAY COLLAR CASUAL LYCRA SHIRTS</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹499/-</h4>
+          </div>
+          <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="sm-banner section-p1">
+      <div class="banner-box">
+        <h4>crazy deals</h4>
+        <h2>buy 1 get 1 free</h2>
+        <span>The best classic dress is on sale from cara</span>
+        <button class="white">Learn More</button>
+      </div>
+      <div class="banner-box banner-box2">
+        <h4>spring/summer</h4>
+        <h2>upcoming season</h2>
+        <span>The best classic dress is on sale from cara</span>
+        <button class="white">Collection</button>
+      </div>
+    </section>
+
+    <secton class="banner3">
+      <div class="banner-box">
+        <h2>SEASONAL SALE</h2>
+        <h3>Winter Collection - 50% OFF</h3>
+      </div>
+      <div class="banner-box banner-box2">
+        <h2>NEW FOOTWEAR COLLECTION</h2>
+        <h3>Spring/Summer 2022</h3>
+      </div>
+      <div class="banner-box banner-box3">
+        <h2>T-SHIRTS</h2>
+        <h3>New Trendy Prints</h3>
+      </div>
+    </secton>
+
+    <section class="newsletter section-p1 section-m1">
+      <div class="newsletter__text">
+        <h4>Sign Up For Newsletters</h4>
+        <p>Get E-mail updates about our latest shop and <span>special offers.</span></p>
+      </div>
+      <div class="newsletter__form">
+        <input type="text" placeholder="Your email address">
+        <button class="normal">Sign Up</button>
+      </div>
+    </section>
+
+    <footer class="section-p1">
+      <div class="col">
+        
+        <h4>Contact</h4>
+        <p><strong>Address: </strong>Hyderabad,Telanagana</p>
+        <p><strong>Phone: </strong>(+91) 01 2345 6789</p>
+        <p><strong>Hours: </strong>10:00AM - 10:00PM, Mon - Sat</p>
+        <div class="follow">
+          <h4>Follow Us</h4>
+          <div class="icon">
+           <a href="https://www.facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-pinterest-p"></i>
+            <i class="fa-brands fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <h4>About</h4>
+        <a href="#">About</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Contact Us</a>
+      </div>
+      
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="#">View Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Orders</a>
+        <a href="#">Help</a>
+      </div>
+
+      <div class="col install">
+        <h4>Install App</h4>
+        <p>From App Store or Google Play</p>
+        <div class="row">
+          <img src="img/pay/app.jpg" alt="App Store">
+          <img src="img/pay/play.jpg" alt="Google Play">
+        </div>
+        <p>Secure Payment Gateways</p>
+        <img src="img/pay/pay.png" alt="Payment">
+      </div>
+
+      <div class="copyright">
+        <p>&#169; 2025, IdeaFusion - Best Deals Every Day</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

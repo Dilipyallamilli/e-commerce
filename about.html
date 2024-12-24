@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - E-Commerce Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #c1bebe;
+        }
+        header {
+            background-color: #1be8e8;
+            color: #000000;
+            text-align: center;
+            padding: 20px 0;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            background-color: #1be8e8;
+            color: #000000;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #240261;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px 0;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        section h2,ul {
+            color: #000000;
+            margin-bottom: 10px;
+        }
+        section p {
+            color: #000000;
+        }
+        .team {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .team .p,h3{
+            color: #000000;
+        }
+        .team .member {
+            flex: 1 1 calc(33.333% - 20px);
+            background: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            text-align: center;
+        }
+        .team .member img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #5b5b5b;
+            color: #fff;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>About Us</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section>
+            <h2>Our Story</h2>
+            <p>Welcome to IdeaFusion, your one-stop destination for online shopping. Founded in 2025, our mission is to provide high-quality products with exceptional customer service. We believe shopping should be convenient, enjoyable, and accessible to everyone.</p>
+        </section>
+
+        <section>
+            <h2>Our Values</h2>
+            <p>At the heart of our business are values that guide everything we do:</p>
+            <ul>
+                <li>Customer First: We prioritize the needs and satisfaction of our customers.</li>
+                <li>Quality Assurance: We source only the best products from trusted suppliers.</li>
+                <li>Sustainability: We aim to reduce our environmental impact with eco-friendly practices.</li>
+            </ul>
+        </section>
+
+        <section class="team">
+            <h2>Meet the Team</h2>
+            <div class="member">
+                <img src="img/clothes/pic1.webp" alt="Team Member 1">
+                <h3>Dilip-Kumar</h3>
+                <p>Founder & CEO</p>
+            </div>
+            <div class="member">
+                <img src="img/clothes/pic2.webp" alt="Team Member 2">
+                <h3>Madhusudhan</h3>
+                <p>Head of Marketing</p>
+            </div>
+            <div class="member">
+                <img src="img/clothes/pic3.webp" alt="Team Member 3">
+                <h3>Ravi-teja</h3>
+                <p>Customer Support Manager</p>
+            </div>
+            <div class="member">
+                <img src="img/clothes/pic4.webp" alt="Team Member 3">
+                <h3>Rohith</h3>
+                <p>Customer Support Manager</p>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Welcome to IdeaFusion. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
